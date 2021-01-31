@@ -1,6 +1,6 @@
 $adminpassword=$args[0]
 $domain=$args[1]
-$netname=$args[3]
+$netname=$args[2]
 
 # Making sure all names are resolved
 Resolve-DnsName github.com
